@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.blackborder {
+    border: 5px solid black;
+    border-radius: 3px;
+}
