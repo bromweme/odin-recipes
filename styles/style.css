@@ -4,9 +4,28 @@
     font-size: 18px;
 }
 
-.link {
+.title {
+    font-size: 32px;
+}
+
+.title, .subtitle {
     font-weight: bold;
-    font-size: 20px;
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-size: 28px;
+}
+.recipelist {
+    list-style-type: none;
+}
+
+.link {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .blackborder {
@@ -31,9 +50,23 @@
   }
 
 
-ul { 
-    width: 400px; 
-    margin-left: auto; 
-    margin-right: auto; 
+ul, ol { 
     text-align: left;
+    width: 25%;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+a:visited {
+    color: black;
+}
+
+.link:hover {
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 5px;
+    color:black;
 }
